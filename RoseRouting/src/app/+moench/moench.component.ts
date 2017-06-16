@@ -7,7 +7,7 @@ import { ActivatedRoute, Params } from "@angular/router";
   styleUrls: ['./moench.component.scss']
 })
 export class MoenchComponent implements OnInit, OnDestroy {
-  message = "Welcome to Moench";
+  message = 'Welcome to Moench';
   imageUrl = '../assets/images/moench100.png';
 
   constructor(private route: ActivatedRoute) { }
