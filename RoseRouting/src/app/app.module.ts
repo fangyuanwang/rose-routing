@@ -33,6 +33,7 @@ import {
   MdToolbarModule,
   MdTooltipModule
 } from '@angular/material';
+import { MoenchComponent } from './+moench/moench.component';
 
 
 export const MaterialModules = [
@@ -67,6 +68,7 @@ export const MaterialModules = [
     AppComponent,
     HomeComponent,
     SigninComponent,
+    MoenchComponent,
   ],
   imports: [
     BrowserModule,
